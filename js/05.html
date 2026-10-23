@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>Operadores comparativos</h1>
+    <p id="teste1">o valor de A é: </p>
+    <p id="teste2">o valor de A é: </p>
+    <p id="teste3">o valor de A é: </p>
+    <p id="teste4">o valor de A é: </p>
+    <p id="teste5">o valor de A é: </p>
+    <p id="teste6">o valor de A é: </p>
+
+    <script  type="text/javascript">
+        var A = 1;
+        var B = 1;
+        var C = '1';
+        var D = 2;
+        
+        document.getElementById('teste1').innerHTML += A == B;
+        document.getElementById('teste2').innerHTML += A === C;
+        document.getElementById('teste3').innerHTML += A >= B;
+        document.getElementById('teste4').innerHTML += A >= D;
+        document.getElementById('teste5').innerHTML += A >= B;
+        document.getElementById('teste6').innerHTML += A <= C;
+
+    </script>
+</body>
+</html>
